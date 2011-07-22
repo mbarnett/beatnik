@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99FEE9713D914F100F7AE12 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99FEE9613D914F100F7AE12 /* Cocoa.framework */; };
+		C99FEEA113D914F100F7AE12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99FEE9F13D914F100F7AE12 /* InfoPlist.strings */; };
+		C99FEEA313D914F200F7AE12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99FEEA213D914F200F7AE12 /* main.m */; };
+		C99FEEA713D914F200F7AE12 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C99FEEA513D914F200F7AE12 /* Credits.rtf */; };
+		C99FEEAA13D914F200F7AE12 /* BeatnikAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99FEEA913D914F200F7AE12 /* BeatnikAppDelegate.m */; };
+		C99FEEAD13D914F200F7AE12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99FEEAB13D914F200F7AE12 /* MainMenu.xib */; };
+		C99FEEB513D914F200F7AE12 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99FEEB413D914F200F7AE12 /* SenTestingKit.framework */; };
+		C99FEEB613D914F200F7AE12 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99FEE9613D914F100F7AE12 /* Cocoa.framework */; };
+		C99FEEBE13D914F200F7AE12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99FEEBC13D914F200F7AE12 /* InfoPlist.strings */; };
+		C99FEEC013D914F200F7AE12 /* BeatnikTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C99FEEBF13D914F200F7AE12 /* BeatnikTests.h */; };
+		C99FEEC213D914F200F7AE12 /* BeatnikTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99FEEC113D914F200F7AE12 /* BeatnikTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C99FEEB713D914F200F7AE12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99FEE8913D914F100F7AE12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99FEE9113D914F100F7AE12;
+			remoteInfo = Beatnik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C99FEE9213D914F100F7AE12 /* Beatnik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beatnik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99FEE9613D914F100F7AE12 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C99FEE9913D914F100F7AE12 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C99FEE9A13D914F100F7AE12 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C99FEE9B13D914F100F7AE12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C99FEE9E13D914F100F7AE12 /* Beatnik-Info.plist */ = {isa = PBXFileReference; path = "Beatnik-Info.plist"; sourceTree = "<group>"; };
+		C99FEEA013D914F100F7AE12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C99FEEA213D914F200F7AE12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C99FEEA413D914F200F7AE12 /* Beatnik-Prefix.pch */ = {isa = PBXFileReference; path = "Beatnik-Prefix.pch"; sourceTree = "<group>"; };
+		C99FEEA613D914F200F7AE12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C99FEEA813D914F200F7AE12 /* BeatnikAppDelegate.h */ = {isa = PBXFileReference; path = BeatnikAppDelegate.h; sourceTree = "<group>"; };
+		C99FEEA913D914F200F7AE12 /* BeatnikAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatnikAppDelegate.m; sourceTree = "<group>"; };
+		C99FEEAC13D914F200F7AE12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C99FEEB313D914F200F7AE12 /* BeatnikTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatnikTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99FEEB413D914F200F7AE12 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C99FEEBB13D914F200F7AE12 /* BeatnikTests-Info.plist */ = {isa = PBXFileReference; path = "BeatnikTests-Info.plist"; sourceTree = "<group>"; };
+		C99FEEBD13D914F200F7AE12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C99FEEBF13D914F200F7AE12 /* BeatnikTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeatnikTests.h; sourceTree = "<group>"; };
+		C99FEEC113D914F200F7AE12 /* BeatnikTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatnikTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99FEE8F13D914F100F7AE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99FEE9713D914F100F7AE12 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99FEEAF13D914F200F7AE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99FEEB513D914F200F7AE12 /* SenTestingKit.framework in Frameworks */,
+				C99FEEB613D914F200F7AE12 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99FEE8713D914F100F7AE12 = {
+			isa = PBXGroup;
+			children = (
+				C99FEE9C13D914F100F7AE12 /* Beatnik */,
+				C99FEEB913D914F200F7AE12 /* BeatnikTests */,
+				C99FEE9513D914F100F7AE12 /* Frameworks */,
+				C99FEE9313D914F100F7AE12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99FEE9313D914F100F7AE12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99FEE9213D914F100F7AE12 /* Beatnik.app */,
+				C99FEEB313D914F200F7AE12 /* BeatnikTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99FEE9513D914F100F7AE12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C99FEE9613D914F100F7AE12 /* Cocoa.framework */,
+				C99FEEB413D914F200F7AE12 /* SenTestingKit.framework */,
+				C99FEE9813D914F100F7AE12 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C99FEE9813D914F100F7AE12 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C99FEE9913D914F100F7AE12 /* AppKit.framework */,
+				C99FEE9A13D914F100F7AE12 /* CoreData.framework */,
+				C99FEE9B13D914F100F7AE12 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C99FEE9C13D914F100F7AE12 /* Beatnik */ = {
+			isa = PBXGroup;
+			children = (
+				C99FEEA813D914F200F7AE12 /* BeatnikAppDelegate.h */,
+				C99FEEA913D914F200F7AE12 /* BeatnikAppDelegate.m */,
+				C99FEEAB13D914F200F7AE12 /* MainMenu.xib */,
+				C99FEE9D13D914F100F7AE12 /* Supporting Files */,
+			);
+			path = Beatnik;
+			sourceTree = "<group>";
+		};
+		C99FEE9D13D914F100F7AE12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99FEE9E13D914F100F7AE12 /* Beatnik-Info.plist */,
+				C99FEE9F13D914F100F7AE12 /* InfoPlist.strings */,
+				C99FEEA213D914F200F7AE12 /* main.m */,
+				C99FEEA413D914F200F7AE12 /* Beatnik-Prefix.pch */,
+				C99FEEA513D914F200F7AE12 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C99FEEB913D914F200F7AE12 /* BeatnikTests */ = {
+			isa = PBXGroup;
+			children = (
+				C99FEEBF13D914F200F7AE12 /* BeatnikTests.h */,
+				C99FEEC113D914F200F7AE12 /* BeatnikTests.m */,
+				C99FEEBA13D914F200F7AE12 /* Supporting Files */,
+			);
+			path = BeatnikTests;
+			sourceTree = "<group>";
+		};
+		C99FEEBA13D914F200F7AE12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99FEEBB13D914F200F7AE12 /* BeatnikTests-Info.plist */,
+				C99FEEBC13D914F200F7AE12 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99FEE9113D914F100F7AE12 /* Beatnik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99FEEC513D914F200F7AE12 /* Build configuration list for PBXNativeTarget "Beatnik" */;
+			buildPhases = (
+				C99FEE8E13D914F100F7AE12 /* Sources */,
+				C99FEE8F13D914F100F7AE12 /* Frameworks */,
+				C99FEE9013D914F100F7AE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beatnik;
+			productName = Beatnik;
+			productReference = C99FEE9213D914F100F7AE12 /* Beatnik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C99FEEB213D914F200F7AE12 /* BeatnikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99FEEC813D914F200F7AE12 /* Build configuration list for PBXNativeTarget "BeatnikTests" */;
+			buildPhases = (
+				C99FEEAE13D914F200F7AE12 /* Sources */,
+				C99FEEAF13D914F200F7AE12 /* Frameworks */,
+				C99FEEB013D914F200F7AE12 /* Resources */,
+				C99FEEB113D914F200F7AE12 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99FEEB813D914F200F7AE12 /* PBXTargetDependency */,
+			);
+			name = BeatnikTests;
+			productName = BeatnikTests;
+			productReference = C99FEEB313D914F200F7AE12 /* BeatnikTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99FEE8913D914F100F7AE12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Duskwerks;
+			};
+			buildConfigurationList = C99FEE8C13D914F100F7AE12 /* Build configuration list for PBXProject "Beatnik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C99FEE8713D914F100F7AE12;
+			productRefGroup = C99FEE9313D914F100F7AE12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99FEE9113D914F100F7AE12 /* Beatnik */,
+				C99FEEB213D914F200F7AE12 /* BeatnikTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99FEE9013D914F100F7AE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99FEEA113D914F100F7AE12 /* InfoPlist.strings in Resources */,
+				C99FEEA713D914F200F7AE12 /* Credits.rtf in Resources */,
+				C99FEEAD13D914F200F7AE12 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99FEEB013D914F200F7AE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99FEEBE13D914F200F7AE12 /* InfoPlist.strings in Resources */,
+				C99FEEC013D914F200F7AE12 /* BeatnikTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C99FEEB113D914F200F7AE12 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99FEE8E13D914F100F7AE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99FEEA313D914F200F7AE12 /* main.m in Sources */,
+				C99FEEAA13D914F200F7AE12 /* BeatnikAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99FEEAE13D914F200F7AE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99FEEC213D914F200F7AE12 /* BeatnikTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C99FEEB813D914F200F7AE12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99FEE9113D914F100F7AE12 /* Beatnik */;
+			targetProxy = C99FEEB713D914F200F7AE12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C99FEE9F13D914F100F7AE12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99FEEA013D914F100F7AE12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C99FEEA513D914F200F7AE12 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99FEEA613D914F200F7AE12 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C99FEEAB13D914F200F7AE12 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99FEEAC13D914F200F7AE12 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C99FEEBC13D914F200F7AE12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99FEEBD13D914F200F7AE12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C99FEEC313D914F200F7AE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C99FEEC413D914F200F7AE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C99FEEC613D914F200F7AE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beatnik/Beatnik-Prefix.pch";
+				INFOPLIST_FILE = "Beatnik/Beatnik-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C99FEEC713D914F200F7AE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beatnik/Beatnik-Prefix.pch";
+				INFOPLIST_FILE = "Beatnik/Beatnik-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C99FEEC913D914F200F7AE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Beatnik.app/Contents/MacOS/Beatnik";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beatnik/Beatnik-Prefix.pch";
+				INFOPLIST_FILE = "BeatnikTests/BeatnikTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C99FEECA13D914F200F7AE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Beatnik.app/Contents/MacOS/Beatnik";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beatnik/Beatnik-Prefix.pch";
+				INFOPLIST_FILE = "BeatnikTests/BeatnikTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99FEE8C13D914F100F7AE12 /* Build configuration list for PBXProject "Beatnik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99FEEC313D914F200F7AE12 /* Debug */,
+				C99FEEC413D914F200F7AE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99FEEC513D914F200F7AE12 /* Build configuration list for PBXNativeTarget "Beatnik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99FEEC613D914F200F7AE12 /* Debug */,
+				C99FEEC713D914F200F7AE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C99FEEC813D914F200F7AE12 /* Build configuration list for PBXNativeTarget "BeatnikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99FEEC913D914F200F7AE12 /* Debug */,
+				C99FEECA13D914F200F7AE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99FEE8913D914F100F7AE12 /* Project object */;
+}
