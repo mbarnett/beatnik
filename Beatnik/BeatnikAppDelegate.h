@@ -2,16 +2,19 @@
 //  BeatnikAppDelegate.h
 //  Beatnik
 //
-//  Created by Matthew Barnett on 11-07-21.
-//  Copyright 2011 Duskwerks. All rights reserved.
+//  Created by Matthew Barnett on 11-03-31.
+//  Copyright 2011 Matthew Barnett. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
+#import "DWStatusBarController.h"
+#import "DWLoginController.h"
 
 @interface BeatnikAppDelegate : NSObject <NSApplicationDelegate> {
-    NSWindow *window;
+    DWStatusBarController *statusBarController;
+    DWLoginController *loginController;
 }
-
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet DWStatusBarController *statusBarController;
+@property (assign) IBOutlet DWLoginController *loginController;
 
 @end

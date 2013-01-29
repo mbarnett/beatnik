@@ -15,9 +15,10 @@
 		C99FEEAD13D914F200F7AE12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99FEEAB13D914F200F7AE12 /* MainMenu.xib */; };
 		C99FEEB513D914F200F7AE12 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99FEEB413D914F200F7AE12 /* SenTestingKit.framework */; };
 		C99FEEB613D914F200F7AE12 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99FEE9613D914F100F7AE12 /* Cocoa.framework */; };
-		C99FEEBE13D914F200F7AE12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99FEEBC13D914F200F7AE12 /* InfoPlist.strings */; };
-		C99FEEC013D914F200F7AE12 /* BeatnikTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C99FEEBF13D914F200F7AE12 /* BeatnikTests.h */; };
-		C99FEEC213D914F200F7AE12 /* BeatnikTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99FEEC113D914F200F7AE12 /* BeatnikTests.m */; };
+		C9A7591213DAB00A00EBBECB /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A7591113DAB00A00EBBECB /* Constants.m */; };
+		C9A7591513DAB49600EBBECB /* DWLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A7591413DAB49600EBBECB /* DWLoginController.m */; };
+		C9DE422713D9250E00CF4BC0 /* DWStatusBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE422613D9250E00CF4BC0 /* DWStatusBarController.m */; };
+		C9DE422A13D9252000CF4BC0 /* DWBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE422913D9252000CF4BC0 /* DWBeat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +37,24 @@
 		C99FEE9913D914F100F7AE12 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C99FEE9A13D914F100F7AE12 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C99FEE9B13D914F100F7AE12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C99FEE9E13D914F100F7AE12 /* Beatnik-Info.plist */ = {isa = PBXFileReference; path = "Beatnik-Info.plist"; sourceTree = "<group>"; };
+		C99FEE9E13D914F100F7AE12 /* Beatnik-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beatnik-Info.plist"; sourceTree = "<group>"; };
 		C99FEEA013D914F100F7AE12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C99FEEA213D914F200F7AE12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C99FEEA413D914F200F7AE12 /* Beatnik-Prefix.pch */ = {isa = PBXFileReference; path = "Beatnik-Prefix.pch"; sourceTree = "<group>"; };
+		C99FEEA413D914F200F7AE12 /* Beatnik-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beatnik-Prefix.pch"; sourceTree = "<group>"; };
 		C99FEEA613D914F200F7AE12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		C99FEEA813D914F200F7AE12 /* BeatnikAppDelegate.h */ = {isa = PBXFileReference; path = BeatnikAppDelegate.h; sourceTree = "<group>"; };
+		C99FEEA813D914F200F7AE12 /* BeatnikAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeatnikAppDelegate.h; sourceTree = "<group>"; };
 		C99FEEA913D914F200F7AE12 /* BeatnikAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatnikAppDelegate.m; sourceTree = "<group>"; };
 		C99FEEAC13D914F200F7AE12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C99FEEB313D914F200F7AE12 /* BeatnikTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatnikTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99FEEB413D914F200F7AE12 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C99FEEBB13D914F200F7AE12 /* BeatnikTests-Info.plist */ = {isa = PBXFileReference; path = "BeatnikTests-Info.plist"; sourceTree = "<group>"; };
-		C99FEEBD13D914F200F7AE12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C99FEEBF13D914F200F7AE12 /* BeatnikTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeatnikTests.h; sourceTree = "<group>"; };
-		C99FEEC113D914F200F7AE12 /* BeatnikTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatnikTests.m; sourceTree = "<group>"; };
+		C9A7590F13DAAF6400EBBECB /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C9A7591113DAB00A00EBBECB /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		C9A7591313DAB49600EBBECB /* DWLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWLoginController.h; sourceTree = "<group>"; };
+		C9A7591413DAB49600EBBECB /* DWLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWLoginController.m; sourceTree = "<group>"; };
+		C9DE422513D9250E00CF4BC0 /* DWStatusBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWStatusBarController.h; path = Controllers/DWStatusBarController.h; sourceTree = "<group>"; };
+		C9DE422613D9250E00CF4BC0 /* DWStatusBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWStatusBarController.m; path = Controllers/DWStatusBarController.m; sourceTree = "<group>"; };
+		C9DE422813D9252000CF4BC0 /* DWBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWBeat.h; path = Models/DWBeat.h; sourceTree = "<group>"; };
+		C9DE422913D9252000CF4BC0 /* DWBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWBeat.m; path = Models/DWBeat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				C99FEE9C13D914F100F7AE12 /* Beatnik */,
-				C99FEEB913D914F200F7AE12 /* BeatnikTests */,
 				C99FEE9513D914F100F7AE12 /* Frameworks */,
 				C99FEE9313D914F100F7AE12 /* Products */,
 			);
@@ -115,8 +119,12 @@
 		C99FEE9C13D914F100F7AE12 /* Beatnik */ = {
 			isa = PBXGroup;
 			children = (
+				C9A7590F13DAAF6400EBBECB /* Constants.h */,
+				C9A7591113DAB00A00EBBECB /* Constants.m */,
 				C99FEEA813D914F200F7AE12 /* BeatnikAppDelegate.h */,
 				C99FEEA913D914F200F7AE12 /* BeatnikAppDelegate.m */,
+				C9DE422C13D9253400CF4BC0 /* Controllers */,
+				C9DE422B13D9252600CF4BC0 /* Models */,
 				C99FEEAB13D914F200F7AE12 /* MainMenu.xib */,
 				C99FEE9D13D914F100F7AE12 /* Supporting Files */,
 			);
@@ -135,23 +143,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C99FEEB913D914F200F7AE12 /* BeatnikTests */ = {
+		C9DE422B13D9252600CF4BC0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C99FEEBF13D914F200F7AE12 /* BeatnikTests.h */,
-				C99FEEC113D914F200F7AE12 /* BeatnikTests.m */,
-				C99FEEBA13D914F200F7AE12 /* Supporting Files */,
+				C9DE422813D9252000CF4BC0 /* DWBeat.h */,
+				C9DE422913D9252000CF4BC0 /* DWBeat.m */,
 			);
-			path = BeatnikTests;
+			name = Models;
 			sourceTree = "<group>";
 		};
-		C99FEEBA13D914F200F7AE12 /* Supporting Files */ = {
+		C9DE422C13D9253400CF4BC0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C99FEEBB13D914F200F7AE12 /* BeatnikTests-Info.plist */,
-				C99FEEBC13D914F200F7AE12 /* InfoPlist.strings */,
+				C9DE422513D9250E00CF4BC0 /* DWStatusBarController.h */,
+				C9DE422613D9250E00CF4BC0 /* DWStatusBarController.m */,
+				C9A7591313DAB49600EBBECB /* DWLoginController.h */,
+				C9A7591413DAB49600EBBECB /* DWLoginController.m */,
 			);
-			name = "Supporting Files";
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +208,7 @@
 		C99FEE8913D914F100F7AE12 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = Duskwerks;
 			};
 			buildConfigurationList = C99FEE8C13D914F100F7AE12 /* Build configuration list for PBXProject "Beatnik" */;
@@ -234,8 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C99FEEBE13D914F200F7AE12 /* InfoPlist.strings in Resources */,
-				C99FEEC013D914F200F7AE12 /* BeatnikTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +272,10 @@
 			files = (
 				C99FEEA313D914F200F7AE12 /* main.m in Sources */,
 				C99FEEAA13D914F200F7AE12 /* BeatnikAppDelegate.m in Sources */,
+				C9DE422713D9250E00CF4BC0 /* DWStatusBarController.m in Sources */,
+				C9DE422A13D9252000CF4BC0 /* DWBeat.m in Sources */,
+				C9A7591213DAB00A00EBBECB /* Constants.m in Sources */,
+				C9A7591513DAB49600EBBECB /* DWLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C99FEEC213D914F200F7AE12 /* BeatnikTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,14 +321,6 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		C99FEEBC13D914F200F7AE12 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C99FEEBD13D914F200F7AE12 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -341,7 +344,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -361,7 +364,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -369,10 +372,13 @@
 		C99FEEC613D914F200F7AE12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beatnik/Beatnik-Prefix.pch";
 				INFOPLIST_FILE = "Beatnik/Beatnik-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -380,10 +386,13 @@
 		C99FEEC713D914F200F7AE12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beatnik/Beatnik-Prefix.pch";
 				INFOPLIST_FILE = "Beatnik/Beatnik-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -392,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Beatnik.app/Contents/MacOS/Beatnik";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beatnik/Beatnik-Prefix.pch";
@@ -406,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Beatnik.app/Contents/MacOS/Beatnik";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beatnik/Beatnik-Prefix.pch";
@@ -435,6 +446,7 @@
 				C99FEEC713D914F200F7AE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C99FEEC813D914F200F7AE12 /* Build configuration list for PBXNativeTarget "BeatnikTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +455,7 @@
 				C99FEECA13D914F200F7AE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

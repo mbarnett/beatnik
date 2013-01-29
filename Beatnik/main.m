@@ -3,7 +3,7 @@
 //  Beatnik
 //
 //  Created by Matthew Barnett on 11-07-21.
-//  Copyright 2011 Duskwerks. All rights reserved.
+//  Copyright 2011 Matthew Barnett. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

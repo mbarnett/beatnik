@@ -1,20 +1,37 @@
 //
-//  BeatnikAppDelegate.m
-//  Beatnik
+//  XbeatsAppDelegate.m
+//  Xbeats
 //
-//  Created by Matthew Barnett on 11-07-21.
-//  Copyright 2011 Duskwerks. All rights reserved.
+//  Created by Matthew Barnett on 11-03-31.
+//  Copyright 2011 Matthew Barnett. All rights reserved.
 //
 
 #import "BeatnikAppDelegate.h"
+#import "Constants.h"
 
 @implementation BeatnikAppDelegate
 
-@synthesize window;
+@synthesize statusBarController;
+@synthesize loginController;
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
++ (void)initialize
 {
-    // Insert code here to initialize your application
+    NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
+    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
+                          [NSNumber numberWithBool:NO], kExtendedPrecisionPrefKey,
+                          [NSNumber numberWithBool:NO], kStartAtLoginPrefKey,
+                          nil];
+    
+    [preferences registerDefaults:dict];   
+}
+
+- (void)applicationDidFinishLaunching:(NSNotification *)notification
+{
+    // Tell the login controller what pref key to monitor
+    [loginController observePreferenceKey:kStartAtLoginPrefKey];
+    
+    // We're up and running, start the beat clock
+    [statusBarController scheduleBeatDisplayUpdate];
 }
 
 @end
